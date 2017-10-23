@@ -39,8 +39,19 @@ section{
 }
 
 div{
+    margin-top: 30px;
+    text-align: center;
     display: inline-block;
     width: 33%;
+}
+
+span{
+    text-align: center;
+    font-size: 60px;
+}
+
+span:hover, box-header ul li{
+    color: #f9af1a;
 }
 
 /*Clases reutilizables*/
@@ -55,9 +66,30 @@ div{
     display: inline-block;
 }
 
+.box-header ul li{
+    margin: 0px 15px
+}
 
 /*Clases específicas*/
 .logo-header{
     width: 200px;
 }
 
+/*selector de */
+body section:last-child{
+    margin-top: 30px;
+}
+
+/*selector de atributo*/
+img[alt="laboratoria"]{
+    width: 130px;
+}
+
+button{
+    color: white;
+    background: #f9af1a;
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px;
+    font-weight: 600px;
+}
