@@ -5,6 +5,42 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: 'Raleway', sans-serif;
+    color: #303030;
+}
+
+/*solo se coloca inline porque no se aplicara altura ni ancho*/
+li{
+    display: inline;
+    list-style: none;
+}
+
+/*para que herede el color de su padre*/
+li a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/*para que se quede en su lugar y su espacio*/
+header{
+    position: relative;
+}
+
+/* transformando el contenido de nav, guiandote 
+del plano cartesiano*/
+nav{
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+section{
+    text-align: center;
+}
+
+div{
+    display: inline-block;
+    width: 33%;
 }
 
 /*Clases reutilizables*/
@@ -24,3 +60,4 @@ body{
 .logo-header{
     width: 200px;
 }
+
