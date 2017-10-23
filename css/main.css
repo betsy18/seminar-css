@@ -1,0 +1,26 @@
+/*recomendación colocar las propiedades por orden alfabético*/
+
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*Clases reutilizables*/
+
+/*indicando mayuscula*/
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+/*modificando el display de las img*/
+.box-header{
+    display: inline-block;
+}
+
+
+/*Clases específicas*/
+.logo-header{
+    width: 200px;
+}
